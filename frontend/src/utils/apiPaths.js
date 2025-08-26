@@ -1,5 +1,5 @@
 // export const BASE_URL = "http://localhost:9000";
-export const BASE_URL = "https://interview-prep-ai-backend-rouge.vercel.app/";
+export const BASE_URL = "https://interview-prep-ai-backend-m1j9khc2j.vercel.app/";
 
 export const API_PATHS = {
     AUTH: {

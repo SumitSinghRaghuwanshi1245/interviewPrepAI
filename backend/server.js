@@ -28,6 +28,7 @@ connectDB();
 app.use(express.json());
 
 // Routes
+app.get('/', (req, res) => res.send("API is Working"));
 app.use("/api/auth", authRoutes)
 app.use("/api/sessions", sessionRoutes)
 app.use("/api/questions", questionRoutes)
